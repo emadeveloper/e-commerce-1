@@ -1,10 +1,16 @@
-import React from 'react'
-import Nav from './components/Nav'
+import React from "react";
+import MobileNav from "./components/MobileNav";
+import Topbar from "./components/Topbar";
+import Navbar from "./components/Navbar";
 
-function App () {
+function App() {
   return (
-    <Nav />
-  )
+    <>
+      <Topbar />
+      <Navbar />
+      {/* <MobileNav /> */}
+    </>
+  );
 }
 
-export default App
+export default App;
